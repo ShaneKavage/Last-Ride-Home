@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd62ef0cda9b4ac1a1c9621c63108b6, type: 3}
+  m_Name: Opening0
+  m_EditorClassIdentifier: 
+  speaker:
+  - Tyler
+  - Me
+  - Tyler
+  - Me
+  - Tyler
+  - Me
+  - Tyler
+  - Me
+  dialogues:
+  - "Oh my god, I can\u2019t believe I fricking died in this train!"
+  - What are you talking about? How are you talking to me then?
+  - "I have unfinished business, so I\u2019m haunting your phone. That\u2019s how
+    it works."
+  - '*Sigh* Alright fine, what am I supposed to do about it then?'
+  - Find who killed me! Duh!
+  - "How do I know you\u2019re not just pulling a prank?"
+  - "I\u2019m not smart enough to hack into your phone, genius. Maybe my body has
+    some clues."
+  - OK, ill look around.
+  animations:
+  - PopUp
+  - 
+  - Angry
+  - 
+  - Angry
+  - 
+  - Laugh
+  - 
+  npcNums: 0100000000000000010000000000000001000000000000000100000000000000
+  audioClips:
+  - {fileID: 8300000, guid: 4d29e273516f449f393c443fbb59b484, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: d3070d83f1fb34cf884fd66b1efe81aa, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 239ed83c38c0444c983491900fdc746a, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: f442447531bdd46aa95b4491371ade43, type: 3}
+  - {fileID: 0}

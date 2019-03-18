@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd62ef0cda9b4ac1a1c9621c63108b6, type: 3}
+  m_Name: Bartender_1_01
+  m_EditorClassIdentifier: 
+  speaker:
+  - Bartender
+  - Me
+  - Bartender
+  - Me
+  - Bartender
+  - Me
+  dialogues:
+  - Looking fresh! What can I get for you sport?
+  - "Have you seen my brother? I can\u2019t seem to find him\u2026"
+  - "Brother you say? Hmm\u2026"
+  - So have you seen him then?
+  - "What? No. I never said that\u2026"
+  - "Well, alright\u2026"
+  animations:
+  - 
+  npcNums: 060000000000000006000000000000000600000000000000
+  audioClips:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

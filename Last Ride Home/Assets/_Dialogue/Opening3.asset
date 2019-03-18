@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd62ef0cda9b4ac1a1c9621c63108b6, type: 3}
+  m_Name: Opening3
+  m_EditorClassIdentifier: 
+  speaker:
+  - Tyler
+  - Me
+  - Tyler
+  - Me
+  - Tyler
+  - Me
+  dialogues:
+  - "You don\u2019t know how many times I\u2019ve had to tell you this, but I. AM.
+    DEAD."
+  - What drugs are you on now?
+  - "None! Some? I don\u2019t know, I\u2019m dead. Can the dead do drugs?"
+  - "If you\u2019re dead, how did you die?"
+  - "That\u2019s what I need you to figure out! I only know that a knife covered in
+    blood, and a bloodied glove were involved."
+  - "You really had to pull this stunt 8 minutes before we reach the station? Fine,
+    I\u2019ll play along and look around."
+  animations:
+  - PopUp
+  - 
+  - Angry
+  - 
+  - Laugh
+  - 
+  npcNums: 010000000000000001000000000000000100000000000000
+  audioClips:
+  - {fileID: 8300000, guid: 5ef6dde8cdd044dccbfe1231e4687932, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: b53daa6745e9c4a8dba649e2ecc1494a, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: c2a295cbf34234451874bb39e8c73a4d, type: 3}
+  - {fileID: 0}

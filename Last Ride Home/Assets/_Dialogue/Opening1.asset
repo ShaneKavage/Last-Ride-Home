@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd62ef0cda9b4ac1a1c9621c63108b6, type: 3}
+  m_Name: Opening1
+  m_EditorClassIdentifier: 
+  speaker:
+  - Tyler
+  - Me
+  - Tyler
+  - Me
+  dialogues:
+  - "Guess who\u2019s dead bruv? THIS GUY!"
+  - What? Impossible! I just saw you get up like 5 minutes ago.
+  - Crazy how these things happen. But listen. I Know I died, and it looked bloody.
+  - "Guess I\u2019ll look around and try not to end up like you\u2026"
+  animations:
+  - PopUp
+  - 
+  - Angry
+  - 
+  npcNums: 01000000000000000100000000000000
+  audioClips:
+  - {fileID: 8300000, guid: 49a3c318bb83142dcaa4f4ac781c75fe, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: feb356cb6dcbc455bbaae54b4b5b2685, type: 3}
+  - {fileID: 0}

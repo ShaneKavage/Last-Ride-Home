@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd62ef0cda9b4ac1a1c9621c63108b6, type: 3}
+  m_Name: Ending1
+  m_EditorClassIdentifier: 
+  speaker:
+  - Tyler
+  - Me
+  - Tyler
+  dialogues:
+  - "Oh MAN that\u2019s nasty! Look at all that blood on my shirt!"
+  - "What\u2019s that floating over your body?"
+  - "I don\u2019t know, but it is calling me\u2026"
+  animations:
+  - Angry
+  - 
+  - Laugh
+  npcNums: 010000000000000001000000
+  audioClips:
+  - {fileID: 8300000, guid: 9b6ad7e1a8563414ba563e930f0da953, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 37d274d73044e422eade756151247196, type: 3}

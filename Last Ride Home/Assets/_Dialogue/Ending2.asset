@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd62ef0cda9b4ac1a1c9621c63108b6, type: 3}
+  m_Name: Ending2
+  m_EditorClassIdentifier: 
+  speaker:
+  - Tyler
+  - Me
+  - Tyler
+  dialogues:
+  - Ah ha! They must have tossed this bloodied glove after doing me in. Bastards!
+  - Something else is glowing.
+  - Leave that to me.
+  animations:
+  - Angry
+  - 
+  - Laugh
+  npcNums: 010000000000000001000000
+  audioClips:
+  - {fileID: 8300000, guid: 1993f0aa37e97498db220f7a3ba1920b, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 42698c117c7a64cddbff5e734f76a375, type: 3}

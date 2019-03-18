@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fd62ef0cda9b4ac1a1c9621c63108b6, type: 3}
+  m_Name: Ending3
+  m_EditorClassIdentifier: 
+  speaker:
+  - Tyler
+  - Me
+  - Tyler
+  dialogues:
+  - Bloody hell! A butter knife? Whoever killed me showed no mercy!
+  - "What\u2019s that floating over your body? Are you seeing this orb thing? It doesn\u2019t
+    natural\u2026"
+  - "I\u2019ll handle it, I think I\u2019m on to something."
+  animations:
+  - Angry
+  - 
+  - Laugh
+  npcNums: 010000000000000001000000
+  audioClips:
+  - {fileID: 8300000, guid: db1b1120b359a4c1f982af9a103137b7, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 9e168ea73313949548fe326239dfdadf, type: 3}
