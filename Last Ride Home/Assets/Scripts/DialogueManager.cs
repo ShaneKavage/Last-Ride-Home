@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 public class DialogueManager : MonoBehaviour
 {
     public Image dialogueBackGround;
@@ -16,8 +17,8 @@ public class DialogueManager : MonoBehaviour
     public AudioSource twinBGMSource;
     public AudioClip twinBGM;
     public FirstPersonInteractionSystem fpiSystem;
-    public LevelManger_01 levelController; 
-    
+    public LevelManger_01 levelController;
+    public LiveTwinController playerController;
 
     private int dialogueCount;
     private int dialougeCountMax;
@@ -44,6 +45,8 @@ public class DialogueManager : MonoBehaviour
             dialogueBackGround.gameObject.SetActive(false);
             dialougeActive = false;
             fpiSystem.interactLock = false;
+            playerController.MovementOn = true;
+            
             if (lastAnimator!=null)
             {
                 lastAnimator.SetInteger("Stop",1);
@@ -187,6 +190,7 @@ public class DialogueManager : MonoBehaviour
 
     public void LoadDialogue()
     {
+        playerController.MovementOn = false;
         dialogueBackGround.gameObject.SetActive(true);
         dialougeCountMax = dialogue.dialogues.Length;
         dialogueCount = 0;

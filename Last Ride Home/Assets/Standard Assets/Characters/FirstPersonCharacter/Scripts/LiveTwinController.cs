@@ -9,6 +9,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (CapsuleCollider))]
     public class LiveTwinController : MonoBehaviour
     {
+        public bool MovementOn=true;
         [Serializable]
         public class MovementSettings
         {
@@ -159,6 +160,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void FixedUpdate()
         {
+            if (!MovementOn)
+            {
+                return;
+            }
             GroundCheck();
             Vector2 input = GetInput();
 
@@ -286,7 +291,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (Input.GetMouseButton(1))
             {
                 Vector2 mouseInput = GetMouseInput();
-                armAndPhone.transform.localPosition+= new Vector3(GetMouseInput().y,GetMouseInput().x,0) * armMovingSpeed ;
+                float new_arm_x = armAndPhone.transform.localPosition.x;
+                float new_arm_y = armAndPhone.transform.localPosition.y;
+                new_arm_x += mouseInput.y * armMovingSpeed;
+                new_arm_y += mouseInput.x * armMovingSpeed;
+                new_arm_x = Mathf.Clamp(new_arm_x, -0.65f, 0.04f);
+                new_arm_y = Mathf.Clamp(new_arm_y, -0.26f, 0.22f);
+                
+                
+                armAndPhone.transform.localPosition= new Vector3(new_arm_x,new_arm_y,0) ;
             }
             
             armAndPhone.transform.localPosition = new Vector3(armAndPhone.transform.localPosition.x,armAndPhone.transform.localPosition.y,

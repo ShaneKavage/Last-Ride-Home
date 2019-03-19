@@ -18,11 +18,15 @@ MonoBehaviour:
   dialogues:
   - "Young lady! You sit right now! You\u2019re giving me a headache! Bartender! Another
     round!"
-  - But I want to look out the window! Take me there! PLEASE!!!
+  - I was playing hide and seek when I saw the Bartender guy threw something away!
+    It was red and sticky! Ewwwwy! Then my mommy found me.
+  - I want to look out the window! Take me there! PLEASE!!!
   animations:
   - Angry
+  - Angry
   - Laugh
-  npcNums: 0300000002000000
+  npcNums: 030000000200000002000000
   audioClips:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
